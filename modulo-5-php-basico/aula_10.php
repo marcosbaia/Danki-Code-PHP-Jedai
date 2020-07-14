@@ -1,5 +1,5 @@
 <?php
-    $valor1 = 10;
+    $valor1 = 15;
     $valor2 = '10';
 
     //Verifica se valores são iguais
@@ -14,6 +14,6 @@
     if($valor1 === $valor2){
         echo 'E são Idênticas';
     }else{
-        echo 'Porêm NÃO são Idênticas';
+        echo 'E NÃO são Idênticas';
     }
 ?>
