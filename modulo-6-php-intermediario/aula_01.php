@@ -1,15 +1,12 @@
 <?php
-    $meninos = array('chave1'=>'Guilherme','João','Felipe','Mario','Luigi');
+    $meninos = array('Pedro','Guilherme','chave'=>'João','Felipe','Mario','Luigi');
 
     foreach($meninos as $key => $value){
-        echo $key;
-        echo ' => ';
-        echo $value;
-        echo '<hr>';
+        echo $key . ' => ' . $value . '<hr>';
     }
     echo '<br/><hr>';
 
-    $meninas = array('Maria','Rebeca','Laura','Elizabeth','Ana');
+    $meninas = array('Maria','Rebeca','Laura','Elizabeth','Ana','Camila');
     $total = count($meninas);
 
     for($indice=0; $indice<$total; $indice++){
